@@ -1,0 +1,12 @@
+NOTES
+
+
+# scrape name of each category
+
+
+
+# this scrapes the titles of events
+response.xpath("//h3[@class='padding-none inline-block loading']/text()").extract()[0].strip()
+
+
+class="j-groupCard-list searchResults tileGrid tileGrid--3col tileGrid_atMedium--2col tileGrid_atSmall--1col"
